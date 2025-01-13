@@ -1,0 +1,15 @@
+footer{
+    margin-top: auto;
+    background-color: #1e1e1e; /* Dark background */
+    color: #FFD700; /* Yellow text */
+  }
+  
+  footer a{
+      color: #FFC300;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+  
+    footer a:hover {
+      color: #FFEB3B; /* Brighter yellow on hover */
+    }

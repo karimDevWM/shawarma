@@ -1,0 +1,27 @@
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <!-- Carousel Items -->
+    <div class="carousel-inner">
+      <div
+        *ngFor="let src of carouselPhotos; let i = index"
+        class="carousel-item"
+        [class.active]="i === 0">
+        <img class="d-block w-100 img-fluid" [src]="src" class="d-block w-100" alt="Slide {{ i + 1 }}">
+      </div>
+    </div>
+  
+    <!-- Navigation Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <h1>A PROPOS</h1>
+  <hr>
+  <h1>Meilleurs choix de nos clients</h1>
+  
+  
+  

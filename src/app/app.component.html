@@ -1,0 +1,19 @@
+<app-header></app-header>
+<router-outlet>
+    <div class="fixed-buttons">
+        
+        <a href="tel:{{ infos.phoneNumber }}" class="call-button">
+          <i class="bi bi-telephone"></i>
+        </a>
+
+        <a href="tel:{{ infos.phoneNumber }}" class="call-button">
+          <i class="bi bi-phone"></i>
+        </a>
+        <div class="pt-5 mx-3">
+            <a class="call-button btn" href="{{ infos.tiktok }}"><i class="bi bi-tiktok"></i></a>
+            <a class="call-button btn" href="{{ infos.instagram }}"><i class="bi bi-instagram"></i></a>
+            <a class="call-button btn" href="{{ infos.instagram }}"><i class="bi bi-snapchat"></i></a>
+        </div>       
+    </div>
+</router-outlet>
+<app-footer></app-footer>

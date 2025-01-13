@@ -1,0 +1,17 @@
+.fixed-buttons {
+    position: fixed;
+    right: -20px; /* Distance from the right side */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    z-index: 1000; /* Ensure the buttons are above other content */
+  }
+  
+  .call-button {
+    display: block;
+    margin-bottom: 10px; /* Space between buttons */
+    padding: 10px; /* Button padding */
+    text-align: center;
+    border-radius: 50px; /* Rounded buttons */
+    font-size: 1.8rem; /* Adjust icon and text size */
+    color: #fff; /* Text color */
+  }

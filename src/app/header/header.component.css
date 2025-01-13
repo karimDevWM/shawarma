@@ -1,0 +1,14 @@
+.navbar{
+    background-color: #1e1e1e; /* Dark background */
+    color: #FFD700; /* Yellow text */
+}
+
+.navbar a{
+    color: #FFC300;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #FFEB3B; /* Brighter yellow on hover */
+}
