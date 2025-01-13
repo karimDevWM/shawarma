@@ -26,6 +26,6 @@ export class ContactService {
 
   private handleError(error: any): Observable<never> {
     this.logger.log("erreur: " + error);
-    return throwError(error.error || 'Server error');
+    return throwError(() => new Error('Server error'));
   }
 }
