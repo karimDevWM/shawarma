@@ -23,8 +23,8 @@ jobs:
 
           - name: 'Build Inventory Image'
             run: |
-              docker build --tag ghcr.io/karimdevwm/le_roi_shawarma_ui:latest .
-              docker push ghcr.io/karimdevwm/le_roi_shawarma_ui:latest
+              docker build --tag ghcr.io/karimdevwm/shawarma:latest .
+              docker push ghcr.io/karimdevwm/shawarma:latest
           
       # deploy:
       #   needs: push-store-image
