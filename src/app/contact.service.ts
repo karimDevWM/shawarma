@@ -9,7 +9,7 @@ import { LoggerService } from './logger.service';
 export class ContactService {
 
   // private api = 'http://mail.karim-portfolio.xyz/send-email'; // Your API endpoint
-  private api = 'https://mailer.karim-portfolio.xyz/send-email'; // Your API endpoint
+  private api = 'http://mailer.karim-portfolio.xyz/send-email'; // Your API endpoint
 
 
   constructor(private http: HttpClient, private logger: LoggerService) { }

@@ -1,6 +1,6 @@
 .fixed-buttons {
     position: fixed;
-    right: -20px; /* Distance from the right side */
+    right: -10px; /* Distance from the right side */
     top: 50%; /* Center vertically */
     transform: translateY(-50%); /* Adjust for perfect vertical centering */
     z-index: 1000; /* Ensure the buttons are above other content */
